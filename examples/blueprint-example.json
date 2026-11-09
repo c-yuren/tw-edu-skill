@@ -1,0 +1,8 @@
+{
+  "exam": "高中物理單元自主練習（示範）",
+  "total_questions": 3,
+  "allocations": [
+    {"knowledge_point_id": "HS-PHY-N2-CALC", "count": 2},
+    {"knowledge_point_id": "HS-PHY-N2-CONCEPT", "count": 1}
+  ]
+}

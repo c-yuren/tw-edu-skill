@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "checked_on": "2026-11-09",
+  "note": "官方與教學來源索引，不代表內容可批次下載、複製或改作。需由 Agent 原生搜尋確認各頁最新資訊與授權。",
+  "sources": [
+    {"id":"naer", "name":"國家教育研究院：十二年國教課綱", "url":"https://www.naer.edu.tw/PageSyllabus?fid=52", "purpose":"課綱與領域學習重點", "access":"public_index", "rights":"verify_per_resource"},
+    {"id":"edumarket", "name":"教育大市集", "url":"https://market.cloud.edu.tw/", "purpose":"教學資源索引", "access":"web_or_api_key", "rights":"verify_per_resource"},
+    {"id":"edumarket_api", "name":"教育大市集 API 文件", "url":"https://market.cloud.edu.tw/developzone/resources_search.jsp", "purpose":"未來可選用的官方 API；V1 不要求", "access":"api_key_required", "rights":"verify_per_resource"},
+    {"id":"ceec", "name":"大考中心", "url":"https://www.ceec.edu.tw/", "purpose":"學測、分科正式公告、試題及考試說明", "access":"public_index", "rights":"official_exam_not_automatically_reusable"},
+    {"id":"gsat_specs", "name":"大考中心學測考試說明", "url":"https://www.ceec.edu.tw/xmdoc?xsmsid=0J018585845010094026", "purpose":"學測各考科命題規格", "access":"public_index", "rights":"verify_per_resource"},
+    {"id":"cap", "name":"國中教育會考", "url":"https://cap.rcpet.edu.tw/", "purpose":"會考資訊及官方題目連結", "access":"public_index", "rights":"official_exam_not_automatically_reusable"},
+    {"id":"junyi", "name":"均一教育平台", "url":"https://www.junyiacademy.org/", "purpose":"課程與練習資源索引", "access":"platform_specific", "rights":"verify_per_resource"},
+    {"id":"adl", "name":"教育部因材網", "url":"https://adl.edu.tw/", "purpose":"學習節點及教材索引", "access":"platform_specific", "rights":"verify_per_resource"},
+    {"id":"cooc", "name":"臺北酷課雲", "url":"https://cooc.tp.edu.tw/", "purpose":"教學影片與課程索引", "access":"platform_specific", "rights":"verify_per_resource"},
+    {"id":"coolenglish", "name":"Cool English", "url":"https://www.coolenglish.edu.tw/", "purpose":"英語學習資源索引", "access":"platform_specific", "rights":"verify_per_resource"}
+  ]
+}

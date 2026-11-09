@@ -1,0 +1,18 @@
+{
+  "attempt_id": "demo-attempt-0001",
+  "student_id": "student-001",
+  "question_id": "DEMO-PHY-001",
+  "subject": "物理",
+  "grade": "高中",
+  "unit": "牛頓第二運動定律",
+  "knowledge_point_id": "HS-PHY-N2-CALC",
+  "question_type": "single_choice",
+  "context_id": "force-mass-simple",
+  "difficulty": 1,
+  "is_correct": true,
+  "hint_level": 0,
+  "question_verified": true,
+  "error_type": "none",
+  "mode": "practice",
+  "detail": "僅為示範紀錄；不是真實學生作答"
+}

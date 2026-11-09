@@ -1,0 +1,81 @@
+{
+  "title": "高中物理：牛頓第二運動定律（AI 原創示範題）",
+  "questions": [
+    {
+      "id": "DEMO-PHY-001",
+      "type": "single_choice",
+      "stem": "一個質量為 2 kg 的物體，在慣性參考系中受到大小為 6 N、方向固定的合力。物體加速度的大小為多少？",
+      "subject": "物理",
+      "grade": "高中",
+      "unit": "牛頓第二運動定律",
+      "primary_knowledge_point_id": "HS-PHY-N2-CALC",
+      "difficulty": "D1",
+      "design_intent": "檢查學生能否區分合力與質量並使用 a=F/m，干擾選項針對誤乘與誤除。",
+      "options": {"A":"1 m/s²", "B":"2 m/s²", "C":"3 m/s²", "D":"12 m/s²"},
+      "answer": "C",
+      "explanation": "根據牛頓第二運動定律，a=F合/m=6/2=3 m/s²，方向與合力相同。",
+      "authorship": "original",
+      "sources": ["https://www.naer.edu.tw/PageSyllabus?fid=52"],
+      "verification": {
+        "curriculum": {"passed":true, "evidence":"一般高中牛頓第二運動定律觀念題；未聲稱具特定官方課綱代碼"},
+        "independent_solution": {"passed":true, "evidence":"以 2 kg 乘 3 m/s² 得 6 N，反算吻合；單位為加速度"},
+        "ambiguity": {"passed":true, "evidence":"題幹給定合力大小與質量，唯一的加速度大小為 3 m/s²"},
+        "explanation": {"passed":true, "evidence":"明列 F合=ma 與 a=6/2，並核對 SI 單位"},
+        "rights": {"passed":true, "evidence":"本題為新編基礎公式練習，未複製任何既有試題題幹"},
+        "verified_by": "example-author",
+        "verified_at": "2026-11-09T09:00:00+08:00"
+      }
+    },
+    {
+      "id": "DEMO-PHY-002",
+      "type": "multiple_choice",
+      "stem": "在慣性參考系中，某物體所受合力為零。若只考慮符合此條件的可能運動狀態，下列哪些正確？",
+      "subject": "物理",
+      "grade": "高中",
+      "unit": "牛頓第一、第二運動定律",
+      "primary_knowledge_point_id": "HS-PHY-N2-CONCEPT",
+      "difficulty": "D2",
+      "design_intent": "辨別零合力不代表必須靜止；干擾選項針對把速度與加速度混淆的迷思。",
+      "options": {"A":"維持靜止", "B":"以固定速度做直線運動", "C":"速度大小持續增加", "D":"一定朝向正東方運動"},
+      "answer": ["A", "B"],
+      "explanation": "F合=ma，合力為零時 a=0，所以速度向量保持不變：可以靜止，也可以等速度直線運動。速度不會持續增加，也無法推斷必定向東。",
+      "authorship": "original",
+      "sources": ["https://www.naer.edu.tw/PageSyllabus?fid=52"],
+      "verification": {
+        "curriculum": {"passed":true, "evidence":"一般高中力與運動的核心觀念；未填未核實的官方代碼"},
+        "independent_solution": {"passed":true, "evidence":"由 a=0 得速度向量恆定；檢查 A、B 成立，C、D 非必要或矛盾"},
+        "ambiguity": {"passed":true, "evidence":"題目寫明慣性參考系且問可能狀態，不把特定方向當成必要"},
+        "explanation": {"passed":true, "evidence":"對應牛頓第一、二運動定律並逐項說明選項"},
+        "rights": {"passed":true, "evidence":"新編原創一般物理概念題，未取自特定受保護試題"},
+        "verified_by": "example-author",
+        "verified_at": "2026-11-09T09:00:00+08:00"
+      }
+    },
+    {
+      "id": "DEMO-PHY-003",
+      "type": "numeric",
+      "stem": "在慣性參考系中，一個質量為 4 kg 的物體所受水平合力大小為 12 N。其加速度大小為多少？請以 m/s² 作答。",
+      "subject": "物理",
+      "grade": "高中",
+      "unit": "牛頓第二運動定律",
+      "primary_knowledge_point_id": "HS-PHY-N2-CALC",
+      "difficulty": "D1",
+      "design_intent": "檢查以數值形式獨立運算 F合=ma，確認能寫出正確單位。",
+      "answer": 3,
+      "tolerance": 0,
+      "unit": "m/s²",
+      "explanation": "a=F合/m=12 N / 4 kg = 3 m/s²。",
+      "authorship": "original",
+      "sources": ["https://www.naer.edu.tw/PageSyllabus?fid=52"],
+      "verification": {
+        "curriculum": {"passed":true, "evidence":"高中基礎牛頓運動定律的單位與數值運算"},
+        "independent_solution": {"passed":true, "evidence":"反推 F=4 kg × 3 m/s² = 12 N，與題幹一致"},
+        "ambiguity": {"passed":true, "evidence":"質量與合力大小明確且求加速度大小，條件完整"},
+        "explanation": {"passed":true, "evidence":"有代入公式與單位推導"},
+        "rights": {"passed":true, "evidence":"原創基礎運算練習，未複製原題"},
+        "verified_by": "example-author",
+        "verified_at": "2026-11-09T09:00:00+08:00"
+      }
+    }
+  ]
+}

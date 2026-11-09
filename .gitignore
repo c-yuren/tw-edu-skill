@@ -1,0 +1,7 @@
+.taiwan-learning-data/
+__pycache__/
+*.pyc
+*.sqlite3*
+student.md
+teacher.md
+student-backup.json
